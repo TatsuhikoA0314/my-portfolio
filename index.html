@@ -1,8 +1,330 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <title>Who is Tatsuhiko</title>
+        <meta name="description" content="IT就職用のポートフォリオサイト">
+        <meta name="keywords" content="英語、IT、プログラマ、ポートフォリオ">
+        <meta name="author" content="Tatsuhiko Arakawa">
+
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="./src/script.js"></script>
+        <script src="./src/index.js"></script>
     </head>
     <body>
-        <h1>hello</h1>
-    </body>
+      <!-- <div id="root"></div>
+    <script src="bundle.js"></script> -->
+
+        <header>
+          <div>
+            <img class="logo" src="img/logo.png" alt="logo">
+            <nav>
+              
+                <ul>
+                    <li><a href="#main">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skill">SKILL</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <!-- <li><a href="#contact">CONTACT</a></li> -->
+                </ul>
+            </nav>
+          </div>
+        </header>
+
+
+        <!-- main -->
+        <a name="main"></a>
+        <div class="main-wrapper" id="main">
+          <h1 id="title">WELCOME<br> TO<br> T/A's PORTOFOLIO</h1>
+        </div>
+
+
+        <!-- about -->
+        <div class="about-wrapper" id="about">
+          <div class="container">
+            <h1>ABOUT</h1>
+          <img src="img/my-pic.jpeg" alt="顔写真"/>
+          <h2>荒川達彦</h2>                      
+              <p>
+                  出生地日本　兵庫県育ち<br>
+                  4歳から親の仕事で海外を転々とし、ドイツに四年半滞在した後小学四年生時に帰国。<br>
+                  大阪芸術大学文芸学科卒業後、アメリカサンディエゴに渡米し、三年間の滞在期間中に<br>
+                  滞在期間中に現地グロスモントカレッジにいてプログラミングを学ぶ。<br>
+                  その後、コロナの影響で帰国後、就職活動用に2020年に本ウェブサイトを作成。<br>
+              </p>
+              <table>
+                <caption>
+                    <details>
+                    <summary>経歴</summary>
+                        <table> 
+                            <thead>
+                            <tr>
+                                <th scope="col">年度</th>
+                                <th scope="col">出来事</th>
+                                <th scope="col">国</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1994年</th>
+                                <td>出生</td>
+                                <td>日本</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">1998年</th>
+                              <td>シンガポールへ移動</td>
+                              <td>シンガポール</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">1999年</th>
+                              <td>マレーシアへ移動</td>
+                              <td>マレーシア</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2000年</th>
+                              <td>ドイツへ移動、現地インターナショナルスクールに入学</td>
+                              <td>ドイツ</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2004年</th>
+                              <td>日本に帰国</td>
+                              <td>日本</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2017年</th>
+                              <td>大阪芸術大学文芸学科　卒業</td>
+                              <td>日本</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2017年</th>
+                              <td>渡米,現地語学学校を経てGrossmont College 入学</td>
+                              <td>アメリカ</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2019年</th>
+                              <td>Grossmont College　CSIS Computer Programing 卒業</td>
+                              <td>アメリカ</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2019年</th>
+                              <td>インターン開始</td>
+                              <td>アメリカ</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2020年</th>
+                              <td>コロナによりインターン先が休業、ビザの関係で緊急帰国</td>
+                              <td>アメリカ</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">2020年12月時点</td>
+                            </tr>
+                        </tfoot>
+                        </table>
+                    </details>
+                </caption>
+              </table>   
+          </div>
+        </div>
+
+
+        <!-- skill -->
+        <div class="skill-wrapper" id="skill">
+          <div class="container">
+            <h1>SKILL</h1>
+            <div class="top-cards">
+              <div class="skill-card1">
+                <h4>フロントエンド</h4>
+                <ul>
+                  <li><p>HTML/CSS</p></li>
+                  <li><p>SCSS</p></li>
+                  <li><p>JavaScript</p></li>
+                  <li><p>React</p></li>
+                </ul>
+              </div>
+              <div class="skill-card2">
+                <h4>組み込み式</h4>
+                <ul>
+                  <li><p>Java</p></li>
+                  <li><p>C++</p></li>
+                  <li><p>C#</p></li>
+                  <li><p>python</p></li>
+                </ul>
+              </div>
+              <div class="skill-card3">            
+                <h4>テクノロジー</h4>            
+                <ul>
+                  <li><p>AWS</p></li>
+                  <li><p>Unity</p></li>
+                  <li><p>ANdriod SDK</p></li>
+                  <li><p>Linux</p></li>
+                </ul>
+              </div>
+              <div class="skill-card4">  
+                <h4>資格</h4>               
+                <ul>
+                  <li><p>AWS SAA<br>2020年11月</p></li>
+                  <li><p>LIPC Level 1<br> 2020年12月</p></li>
+                </ul>  
+              </div>
+            </div>
+            <div class="bottom-cards">  
+              <div class="skill-card5">  
+                <h4>Udemyコース</h4>               
+                <ul>
+                  <li><p>未経験からプロのWebデザイナーとして働けることがゴールの完全マスターコース</p></li>
+                  <li><p>挨拶から店舗予約まで！手を動かして学ぶAIチャットボット開発入門</p></li>
+                  <li><p>AWS：はじめてのAmazon Web Services </p></li>
+                  <li><p>The Ultimate Guide to 2D Mobile Game Development with Unity</p></li>
+                  <li><p>【画像判定AIアプリ開発・パート1】TensorFlow・Python・Flaskで作る画像判定AIアプリ開発入門</p></li>
+                </ul>  
+              </div>
+              <div class="skill-card6">  
+                <h4>プロゲートコース</h4>               
+                <ul>
+                  <li><p>Web開発パス(Node.js)</p></li>
+                  <li><p>HTML & CSS</p></li>
+                  <li><p>JavaScript</p></li>
+                  <li><p>jQuery</p></li>
+                  <li><p>React</p></li>       
+                </ul>  
+              </div>
+            </div>
+          </div>
+        </div>  
+              
+
+        <!-- work -->
+        <div class="work-wrapper" id="work">
+          <div class="container">
+            <h1>Work</h1>
+            
+            <div class="work-lists">
+              <div class="work-imgs">
+                <img src="img/CavEscape.jpg" id="show-work1" class=".btn">  
+                <h3>&nbsp;2Dスマホゲーム&nbsp;</h3>
+              </div>
+              
+              <div class="work-imgs" id="show-work2" class=".btn">
+                <img src="img/janken-hand.png" >
+                <h3> &nbsp;じゃんけんゲーム&nbsp; </h3>
+              </div>
+
+              <div class="work-imgs" id="show-work3" class=".btn">
+                <img src="img/pic01.jpg" >
+                <h3>&nbsp;AI画像認識&nbsp;</h3>
+              </div>
+
+              <div class="work-imgs" id="show-work4" class=".btn">
+                <img src="img/IMG_0141.jpg" >
+                <h3>&nbsp;LINEボット&nbsp;</h3>
+              </div>
+            </div>
+
+            <div class="work-detail" id="detail1">
+              <h2>デモビデオ</h2>
+              <div>
+                <video src="video/CAVESCAPE.mp4" width="750" controls></video>
+              </div>
+              <h3>2Dスマホゲーム</h3>
+              <ul>
+                <li>プレイヤーは洞窟から脱出するために障害物を通り抜けて敵と戦わなければなりません。</li>
+                <li>キャラクターのアニメーションと敵の行動を制御するためにC＃スクリプトを使用して作成しました。</li>
+                <li>Unity3Dの物理エンジンを利用して、Rigidbody2DおよびCollider2Dコンポーネントでプレーヤーの動きを実装しました。</li>
+              </ul>  
+            </div>
+
+            <div class="work-detail" id="detail2">
+              <h2>デモビデオ</h2>
+              <div>
+                <video src="video/jyanken.mp4" width="750" controls></video>
+              </div>
+              <h3>じゃんけんゲーム</h3>
+              <ul>
+                <li>JavaでAndroidアプリの作成を練習するためのじゃんけんアプリを作成しました。</li>
+                <li>ランダムクラスによって生成された数に応じて対戦相手の行動をコーディングする。</li>
+                <li>GUIを使用して画面を設計し、ユーザーとCPUがビットマップで選択したものを表示します。</li>
+                <li>データをXMLファイルとして保存する設定を使用してゲームの結果を保持する。</li> 
+              </ul>
+            </div>
+
+            <div class="work-detail" id="detail3">
+              <h2>デモビデオ</h2>
+              <div>
+                <video src="video/AI Classification.mp4" width="750" controls></video>
+              </div>
+              <h3>AI動物画像分類</h3>
+              <ul>
+                <li>教師ありPythonのscikit-learnライブラリを使用して分類モデルトレーニングを行う。</li>
+                <li>Flaskを使用してファイルから画像をロードし、Pythonスクリプトによって画像内の動物を返すローカルWebページを作成します</li>
+                <li>クロールでFlickrから動物の画像を取得し、pillowのサイズ変更とnumpy処理を使用して高速化された深層学習を行います</li>
+              </ul>  
+            </div>
+
+            <div class="work-detail" id="detail4">
+              <h2>デモビデオ</h2>
+              <div>
+                <video src="video/chat bot.mp4" width="750" controls></video>
+              </div>
+              <h3>Lineチャットボット</h3>
+              <ul>
+                <li>Dialogflowを使用して、LINEで機能する自動応答アカウントを実行します。</li>
+                <li>フルフィルメントでは、JavaScriptを使用してさまざまな状況に応じて応答が上書きされました。</li>
+                <li>FireBaseの導入と、APIが動作する環境の作成。</li>
+                <li> OpenweatherMapAPIを使用して、ユーザーが入力した都市名の気象情報を返します。</li>
+                <li>自作のAPIを使用して、ユーザーが入力した予約日と名前をGoogleスプレッドシートに自動的に書き込むことができます。</li>
+              </ul>  
+            </div>
+
+
+          </div>
+        </div>
+
+        <!-- contact -->
+        <!-- <div class="contact-wrapper" id="contact">
+          <div class="container">
+            <h1>CONATCT</h1>
+          <form action="" method="POST">
+              <fieldset class="info">
+                  <legend>基本情報</legend><br>
+                                          
+                  <label for="name">お名前：</label>
+                  <input id="name" type="text" name="name">
+
+                  <label for="mail">メールアドレス：</label>
+                  <input id="mail" type="text" name="mail">
+
+                  <label for="phone">電話番号：</label>
+                  <input id="phone" type="text" name="phone">                     
+
+              </fieldset>
+
+              <fieldset>
+                  <legend>お問い合わせ内容</legend><br>
+                  
+                  <label for="para">本文：</label>
+                  <textarea id="para" name="content" placeholder="お問い合わせありがとうございます。右下よりボックスのサイズを変更できます。"></textarea>
+                  
+                  <label id="check">規約に同意します</label>
+                  <input type="checkbox" name="確認" value="規約に同意します">
+
+              </fieldset>
+
+              <input class="button" type="submit" value="送信する">
+              <input class="button" type="reset" value="リセット">
+          </form>
+          </div>
+      </div>
+    </body> -->
+
+    <footer>
+      <div class="footer">
+        <img src="img/small-logo.png" >
+        <p>2020 Designed by Tatsuhiko Arakawa.</p>
+      </div>
+    </footer>
 </html>
