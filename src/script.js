@@ -32,7 +32,7 @@ $(function() {
 
     // 
 
-    $('#title').fadeIn(1500);
+    $('#title').fadeIn(2000);
     
     $('#show-work1').click(function() {slide("detail1");});
     $('#show-work2').click(function() {slide("detail2");});
