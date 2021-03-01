@@ -17,6 +17,7 @@ $(function() {
         $('#detail2').slideUp();
         $('#detail3').slideUp();
         $('#detail4').slideUp();
+        $('#detail5').slideUp();
 
         if(slideDown=="detail1"){
             $('#detail1').slideDown();
@@ -26,6 +27,8 @@ $(function() {
             $('#detail3').slideDown();
         }else if(slideDown=="detail4"){
             $('#detail4').slideDown();
+        }else if(slideDown=="detail5"){
+            $('#detail5').slideDown();
         }
     }
     
@@ -38,13 +41,14 @@ $(function() {
     $('#show-work2').click(function() {slide("detail2");});
     $('#show-work3').click(function() {slide("detail3");});
     $('#show-work4').click(function() {slide("detail4");});
+    $('#show-work5').click(function() {slide("detail5");});
 
-    skillcard(".skill-card1", 500);
-    skillcard(".skill-card2", 1000);
-    skillcard(".skill-card3", 1500);
-    skillcard(".skill-card4", 2000);
-    skillcard(".skill-card5", 1000);
-    skillcard(".skill-card6", 1500);
+    skillcard(".skill-card1", 250);
+    skillcard(".skill-card2", 500);
+    skillcard(".skill-card3", 750);
+    skillcard(".skill-card4", 1000);
+    skillcard(".skill-card5", 750);
+    skillcard(".skill-card6", 1000);
     
 
     $('a[href^=#]').click(function(){
@@ -57,5 +61,10 @@ $(function() {
         return false;
       });
   });
+
+  // 新規タブ
+  function navigateTargetUrl() {
+    window.open(this.event.target.href, null, "noopener");
+  }
 
   

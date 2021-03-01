@@ -77,7 +77,6 @@ body {
     font-family: "メイリオ", Meiryo;
     color: #434343;
     background-color: #f6f6f6;
-    margin: 0;
 }
 /* ==================
     header
@@ -367,7 +366,7 @@ table {
         margin: 0 auto;
         display: none;
 
-        video{
+        video,img{
             box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
             border-radius: 9px;
             width: 750px;
