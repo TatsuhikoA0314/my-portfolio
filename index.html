@@ -207,8 +207,8 @@
             
             <div class="work-lists">
 
-              <div class="work-imgs">
-                <img src="img/Nobeller_main.png" id="show-work5" class=".btn">  
+              <div class="work-imgs" id="show-work3" class=".btn">
+                <img src="img/Nobeller_main.png" >
                 <h3>&nbsp;翻訳＆小説投稿サイト&nbsp;</h3>
               </div>
 
@@ -220,11 +220,6 @@
               <div class="work-imgs" id="show-work2" class=".btn">
                 <img src="img/janken-hand.png" >
                 <h3> &nbsp;じゃんけんゲーム&nbsp; </h3>
-              </div>
-
-              <div class="work-imgs" id="show-work3" class=".btn">
-                <img src="img/pic01.jpg" >
-                <h3>&nbsp;AI画像認識&nbsp;</h3>
               </div>
 
               <div class="work-imgs" id="show-work4" class=".btn">
@@ -247,7 +242,7 @@
             </div>
 
             <div class="work-detail" id="detail2">
-              <h2>デモビデオ</h2>
+              <h2>デモサイト</h2>
               <div>
                 <video src="video/jyanken.mp4" controls></video>
               </div>
@@ -265,11 +260,17 @@
               <div>
                 <a href="http://nobeller-env-1.eba-tam23wm2.ap-northeast-1.elasticbeanstalk.com/" target="_blank" rel="noreferrer"><img src="img/Nobeller.png"></a>
               </div>
-              <h3>AI動物画像分類</h3>
+              <h3>自動翻訳付き小説投稿ウェブアプリ</h3>
               <ul>
-                <li>教師ありPythonのscikit-learnライブラリを使用して分類モデルトレーニングを行う。</li>
-                <li>Flaskを使用してファイルから画像をロードし、<br>Pythonスクリプトによって画像内の動物を返すローカルWebページを作成します</li>
-                <li>クロールでFlickrから動物の画像を取得し、<br>pillowのサイズ変更とnumpy処理を使用して高速化された深層学習を行います</li>
+                <li>Node.js expressを使ったウェブアプリになります。</li>
+                <li>bcryptjs：ハッシュを使った安全なログイン機能の搭載</li>
+                <li>mysqlとの通信により投稿作品の投稿、更新、削除、検索ができます</li>
+                <li>Amazon TranslateとのAPI通信による品役が可能です</li>
+                <li>閲覧者による自動翻訳の手直しが可能です</li>
+                <li>ランキング機能の搭載</li>
+                <li>お気に入り登録管理機能、閲覧者数によるランキングを搭載</li>
+                <li>その他必要小説投稿サイトとしての最低限の機能を搭載</li>
+                <li>AWSによるデプロイ中</li>
               </ul>  
             </div>
 
@@ -287,28 +288,6 @@
                 <li>自作のAPIを使用して、<br>ユーザーが入力した予約日と名前をGoogleスプレッドシートに自動的に書き込むことができます。</li>
               </ul>  
             </div>
-
-            <div class="work-detail" id="detail5">
-              <h2>デモビデオ</h2>
-              <div>
-                <img src="img/Nobeller.png">
-                  
-              </div>
-              <h3>自動翻訳付き小説投稿ウェブアプリ</h3>
-              <ul>
-                <li>Node.js expressを使ったウェブアプリになります。</li>
-                <li>bcryptjs：ハッシュを使った安全なログイン機能の搭載</li>
-                <li>mysqlとの通信により投稿作品の投稿、更新、削除、検索ができます</li>
-                <li>Amazon TranslateとのAPI通信による品役が可能です</li>
-                <li>閲覧者による自動翻訳の手直しが可能です</li>
-                <li>ランキング機能の搭載</li>
-                <li>お気に入り登録管理機能、閲覧者数によるランキングを搭載</li>
-                <li>その他必要小説投稿サイトとしての最低限の機能を搭載</li>
-                <li>AWSによるデプロイ中</li>
-              </ul>  
-            </div>
-
-
           </div>
         </div>
 
